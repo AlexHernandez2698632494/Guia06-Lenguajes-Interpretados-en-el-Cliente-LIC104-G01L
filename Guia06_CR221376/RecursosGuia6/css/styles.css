@@ -3,6 +3,7 @@
 :root {
     --violet: 112.520718, 44.062154, 249.437846;
     --green: 25, 135, 84;
+    --blue: 115,173,231;
 }
 
 .colum {
@@ -17,6 +18,14 @@
     padding-bottom: 0.75rem;
     background-color: rgba(var(--green), 0.1);
     border: 1px solid rgba(var(--green), 0.25);
+}
+
+.colum-blue {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgba(var(--blue),0.4);
+    border: 1px solid rgba(var(--blue), 0.25);
+
 }
 
 .contenedor {

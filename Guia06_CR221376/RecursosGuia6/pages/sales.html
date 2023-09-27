@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link rel="icon" href="../img/js.png" sizes="32x32" type="image/png" />
+    <title>Utilizando estructuras de control</title>
+</head>
+
+<body>
+    <main class="d-flex flex-nowrap">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark nav-bar">
+            <a href="../index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <img src="../img/js.png" alt="" width="32" height="32" class="me-2" />
+
+                <span class="fs-4">JavaScript</span>
+            </a>
+            <hr />
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="registroAcademico.html" class="nav-link text-white"> <i
+                            class="bi bi-file-spreadsheet" role="img" aria-label="RegistroAcademico"></i>
+                        Registro académico
+                    </a>
+                </li>
+                <li>
+                    <a href="tablasMultiplicar.html" class="nav-link text-white"> <i
+                            class="bi bi-person-workspace" role="img" aria-label="TablasMultiplicar"></i>
+                        Tablas de multiplicar
+                    </a>
+                </li>
+                <li>
+                    <a href="promedioNotas.html" class="nav-link text-white">
+                        <i class="bi bi-file-earmark-medical" role="img" aria-label="Promedio"></i>
+                        Promedio notas
+                    </a>
+                </li>
+                <li>
+                    <a href="arreglo.html" class="nav-link text-white">
+                        <i class="bi bi-box" role="img" aria-label="Arreglo"></i>
+                        Arreglo
+                    </a>
+                </li>
+                <hr />
+                <li>
+                    <a href="cifras.html" class="nav-link text-white">
+                        <i class="bi bi-plus-slash-minus"></i>Cantidades
+                    </a>
+                </li>
+                <li>
+                    <a href="sales.html" class="nav-link text-white active">
+                        <i class="bi bi-cart"></i>Ventas
+                    </a>
+                </li>
+                <li>
+                    <a href="arreglo2.html" class="nav-link text-white">
+                        <i class="bi bi-box" role="img" aria-label="Arreglo"></i>
+                        Arreglo 2
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex flex-column flex-shrink-0 p-3 colum-container contenedor">
+            <!-- CONTINUAR CON EL CODIGO AQUI -->
+            <div class="colum-container contenedor">
+                <h2>Product List</h2>
+                <table id="productTable" class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Product Name</th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              
+                <h3>Total Price: <span id="totalPrice">$0.00</span></h3>
+              
+                <button id="addButton" class="btn btn-primary">Add Product</button>
+              </div>    </main>
+
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/sales.js" defer></script>
+</body>
+
+</html>
